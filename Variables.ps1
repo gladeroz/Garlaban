@@ -47,13 +47,7 @@ $CoCDepot =$CocVierge+"\CoC cycle 1502"
 
 
 ################################################# WP4 #############################################################
-#Pour WP4 : adresse mail FAL
-$adressFALDonVAR = "dirk.zatorski@airbus.com; colin.lester@airbus.com; support.ads.ah@airbus.com; support.sw-transfer.ah@airbus.com "
-$adressFALMARVAR = "dirk.zatorski@airbus.com; colin.lester@airbus.com; support.ads.ah@airbus.com "
-
 #CC pour WP4
-$CCFALDonVAR =  "fernando.parrondo@airbus.com; marta.sanchez-martin@airbus.com; isabelle.delefortrie@airbus.com"
-$CCFALMARVAR =  "alberto-alberto.lopez@airbus.com; fernando.parrondo@airbus.com"
 $ccVAR = "support.ads.ah@airbus.com"
 
 # Dossier dépôt CoC + Extract sharecopter
@@ -66,23 +60,16 @@ $SaveExport = "\\garlaban\fdat1010\Database Production\Generated data\Input_file
 
 ################################################# WP2 ###############################
 $TemplateCoC =  "\\garlaban\fdat1010\Database Production\Generated data\Indus\Templates\coc_template.docx"
-$TemplateCoCFALDON =  "\\garlaban\fdat1010\Database Production\Generated data\Indus\Templates\coc_template - FAL-DON.docx"
-$TemplateCoCFALMAR =  "\\garlaban\fdat1010\Database Production\Generated data\Indus\\Templates\coc_template - FAL-MAR.docx"
+
 $InputCoC = "\\garlaban\fdat1010\Database Production\Generated data\Input_files\"
 $InputCoC2 = "\\garlaban\fdat1010\Database Production\Generated data\Input_files\"
 $ExportXlsx = "\\garlaban\fdat1010\Database Production\Generated data\Input_files\Export.xlsx"
-#No delivery to FAL now
-$DirectoryFALDON = "\\garlaban\fdat1010\Database Production\Generated data\01 - Helionix Step 1_Plus\4-EUROPE\Navigation and Obstacles\4DE1\Current cycle"
-$DirectoryFALMAR = "\\garlaban\fdat1010\Database Production\Generated data\02 - Helionix Step 1_FFP\4-EUROPE\Navigation and Obstacles\4FR3\Current cycle"
- 
+
 $ExportCSV = "\\garlaban\fdat1010\Database Production\Generated data\Input_files\"
  
 $WorkingDirectory1 = "\\garlaban\fdat1010\Database Production\Generated data\Input_files\"
 $terrain = "TERRAIN"
 $WP2_GARLABAN_ROOTDIR = "\\garlaban\fdat1010\Database Production\Generated data\"
-
-$GDAT_FAL_DON = "\\SDO2720\Gdat880\0_DELIVERY_REPOSITORY\HTAWS_DMAP_DB\EC145"
-$GDAT_FAL_MAR = "\\SDO2720\Gdat880\0_DELIVERY_REPOSITORY\HTAWS_DMAP_DB\EC175"
 
 $FicLogWP2="\\garlaban\fdat1010\Database Production\Generated data\Input_files\WP2_log.csv"
 ################################################ FIN WP2 #############################
